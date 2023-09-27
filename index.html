@@ -6,38 +6,38 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Application AFPA</title>
 </head>
-<body>
+<body class="ma-class">
     <main>
         <img src="./assets/img/logo.png" alt="logo AFPA">
-        <h1>Bienvenue sur l'application AFPA !</h1>
-        <form action="">
-            <fieldset>
+        <h1 id="mon_id">Bienvenue sur l'application AFPA !</h1>
+        <form method="GET" action="./userDetails.html">
+            <fieldset class="ma-class">
                 <legend>Accès à votre espace privé</legend>
                 <h2>Vous avez déjà un compte ?</h2>
                 <h3>Connectez-vous</h3>
-                <label for="">Identifiant :
-                    <input type="text" placeholder="mail@exemple.fr">
+                <label for="email">Identifiant :
+                    <input type="text"  name="email-Cnx" id="email" placeholder="mail@exemple.fr">
                 </label>
-                <label for="">Mot de passe :
-                    <input type="password">
+                <label for="motdepasse">Mot de passe :
+                    <input type="password" id="motdepasse">
                 </label>
                 <input type="submit" value="Connecter">
                 <h2>Dans le cas contraire, merci de vous inscrire</h2>
                 <h3>Inscription</h3>
                 <label for="">Nom :
-                    <input type="text">
+                    <input type="text" name="nom">
                 </label>
-                <label for="">Prénom :
-                    <input type="text">
+                <label for="" >Prénom :
+                    <input type="text" name="prenom">
                 </label>
                 <label for="">Adresse e-mail :
-                    <input type="text">
+                    <input type="text" name="email-Insc">
                 </label>
                 <label for="">Mot de passe :
-                    <input type="text">
+                    <input type="password">
                 </label>
                 <label for="">Confirmation mot de passe :
-                    <input type="text">
+                    <input type="password">
                 </label>
                 <input type="submit" value="Valider">
             </fieldset>

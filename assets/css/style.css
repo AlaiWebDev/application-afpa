@@ -10,9 +10,17 @@ main {
     width: 40%;
     margin: .5rem auto;
     padding: 15px;
-    border: 1px solid #222121;
+    border: 1px solid #3e3744;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #3a3939;
+}
+
+.ma-class {
+    background-color: rgb(111, 111, 163);
+}
+
+#mon_id {
+    background-color: rgb(206, 87, 50);
 }
 
 img {
